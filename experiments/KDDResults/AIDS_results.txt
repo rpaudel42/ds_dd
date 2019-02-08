@@ -1,0 +1,42 @@
+
+
+
+ ------ Final Result  [ AIDS Run 10 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 27.9,  ] std [  21.172859986312666 ]
+FA1000:-      mean [ 1.1 ] std [ 0.19999999999999998 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ AIDS Run 20 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.55,  ] std [  20.404595070718752 ]
+FA1000:-      mean [ 1.1 ] std [ 0.19999999999999998 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ AIDS Run 30 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 18.1,  ] std [  18.903879672349447 ]
+FA1000:-      mean [ 1.1166666666666667 ] std [ 0.21147629234082532 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ AIDS Run 40 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 15.85,  ] std [  18.052077442776493 ]
+FA1000:-      mean [ 1.125 ] std [ 0.24366985862022408 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ AIDS Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 17.48,  ] std [  19.231474202463005 ]
+FA1000:-      mean [ 1.11 ] std [ 0.23 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ AIDS Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 17.48,  ] std [  19.231474202463005 ]
+FA1000:-      mean [ 1.11 ] std [ 0.23 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]

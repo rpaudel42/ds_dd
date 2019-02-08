@@ -1,0 +1,59 @@
+Instance 5 {
+v 25 v1
+v 24 v2
+v 23 v3
+v 22 v4
+v 21 v5
+e e1 25 24
+e e1 24 23
+e e2 24 21
+e e1 23 22
+}
+
+Instance 4 {
+v 20 v1
+v 19 v2
+v 18 v3
+v 17 v4
+v 16 v5
+e e1 20 19
+e e1 19 18
+e e2 19 16
+e e1 18 17
+}
+
+Instance 3 {
+v 15 v1
+v 14 v2
+v 13 v3
+v 12 v4
+v 11 v5
+e e1 15 14
+e e1 14 13
+e e2 14 11
+e e1 13 12
+}
+
+Instance 2 {
+v 10 v1
+v 9 v2
+v 8 v3
+v 7 v4
+v 6 v5
+e e1 10 9
+e e1 9 8
+e e2 9 6
+e e1 8 7
+}
+
+Instance 1 {
+v 5 v1
+v 4 v2
+v 3 v3
+v 2 v4
+v 1 v5
+e e1 5 4
+e e1 4 3
+e e2 4 1
+e e1 3 2
+}

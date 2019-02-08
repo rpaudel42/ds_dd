@@ -1,0 +1,42 @@
+
+
+
+ ------ Final Result  [ MUTA Run 10 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 20.4,  ] std [  17.362027531368565 ]
+FA1000:-      mean [ 0.6225501498731842 ] std [ 0.20751671662439475 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ MUTA Run 20 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 20.4,  ] std [  18.677258899528056 ]
+FA1000:-      mean [ 0.5994927369149181 ] std [ 0.18445930366612867 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ MUTA Run 30 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 23.7,  ] std [  21.797782761862116 ]
+FA1000:-      mean [ 0.599492736914918 ] std [ 0.18445930366612867 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ MUTA Run 40 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 23.675,  ] std [  21.091926773057033 ]
+FA1000:-      mean [ 0.6052570901544846 ] std [ 0.17626106584529233 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ MUTA Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.8,  ] std [  20.628136125205305 ]
+FA1000:-      mean [ 0.6087157020982246 ] std [ 0.18307063169268348 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ MUTA Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.8,  ] std [  20.628136125205305 ]
+FA1000:-      mean [ 0.6087157020982246 ] std [ 0.18307063169268348 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]

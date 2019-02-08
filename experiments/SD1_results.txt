@@ -1,0 +1,26 @@
+
+ ------ Final Result  [ SD1 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 3.66,  ] std [  4.558991116464256 ]
+FA1000:-      mean [ 24.2 ] std [ 1.5297058540778357 ]
+DCR:-         mean [ 0.8 ] std [ 0.4 ]
+
+
+
+ ------ Final Result  [ SD1 -- param[ n = 15, w = 50] ]-----
+DoD:-         mean [ 3.22,  ] std [  4.332620454182434 ]
+FA1000:-      mean [ 23.87 ] std [ 2.094779224643972 ]
+DCR:-         mean [ 0.66 ] std [ 0.4737087712930805 ]
+
+
+
+ ------ Final Result  [ SD1 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 4.12,  ] std [  4.598434516223972 ]
+FA1000:-      mean [ 22.07 ] std [ 2.835507009337131 ]
+DCR:-         mean [ 0.8 ] std [ 0.4 ]
+
+
+
+ ------ Final Result  [ SD1 -- param[ n = 20, w = 50] ]-----
+DoD:-         mean [ 4.34,  ] std [  4.598304035185146 ]
+FA1000:-      mean [ 24.06 ] std [ 1.7906423428479512 ]
+DCR:-         mean [ 0.8 ] std [ 0.4 ]

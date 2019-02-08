@@ -1,0 +1,114 @@
+GBAD 3.3
+
+Parameters:
+  Input file..................... gbad/graphs/MUTA.g
+  Predefined substructure file... none
+  Output file.................... gbad/graphs/SG_MUTA.g
+  Dot file....................... none
+  Beam width..................... 4
+  Compress....................... false
+  Evaluation method.............. MDL
+  Anomaly Detection method....... NONE
+  'e' edges directed............. true
+  Iterations..................... 1
+  Limit.......................... 7
+  Minimum size of substructures.. 1
+  Maximum size of substructures.. 10
+  Number of best substructures... 10
+  Output level................... 2
+  Allow overlapping instances.... false
+  Prune.......................... false
+  Threshold...................... 0.000000
+  Value-based queue.............. false
+
+Read 1 total positive graphs
+
+1 positive graphs: 14 vertices, 14 edges, 165 bits
+6 unique labels
+
+2 initial substructures
+
+Best 10 substructures:
+
+(1) Substructure: value = 1.16036, instances = 4
+  Graph(2v,1e):
+    v 1 "C"
+    v 2 "H"
+    d 1 2 "1"
+
+(2) Substructure: value = 1.10807, instances = 2
+  Graph(4v,3e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "C"
+    v 4 "H"
+    d 1 2 "2"
+    d 2 3 "1"
+    d 2 4 "1"
+
+(3) Substructure: value = 1.10807, instances = 2
+  Graph(4v,3e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "C"
+    v 4 "H"
+    d 1 2 "1"
+    d 2 3 "2"
+    d 2 4 "1"
+
+(4) Substructure: value = 1.09036, instances = 2
+  Graph(3v,2e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "H"
+    d 1 2 "2"
+    d 2 3 "1"
+
+(5) Substructure: value = 1.09036, instances = 2
+  Graph(3v,2e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "H"
+    d 1 2 "1"
+    d 2 3 "1"
+
+(6) Substructure: value = 1.08495, instances = 2
+  Graph(3v,2e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "H"
+    d 1 2 "1"
+    d 1 3 "1"
+
+(7) Substructure: value = 1.08495, instances = 2
+  Graph(3v,2e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "H"
+    d 1 2 "2"
+    d 1 3 "1"
+
+(8) Substructure: value = 1.05031, instances = 3
+  Graph(2v,1e):
+    v 1 "C"
+    v 2 "C"
+    d 1 2 "1"
+
+(9) Substructure: value = 1.05031, instances = 3
+  Graph(2v,1e):
+    v 1 "C"
+    v 2 "C"
+    d 1 2 "2"
+
+(10) Substructure: value = 0.962587, instances = 1
+  Graph(4v,3e):
+    v 1 "C"
+    v 2 "C"
+    v 3 "H"
+    v 4 "H"
+    d 1 2 "2"
+    d 1 3 "1"
+    d 2 4 "1"
+
+
+GBAD done (elapsed CPU time =    0.00 seconds).

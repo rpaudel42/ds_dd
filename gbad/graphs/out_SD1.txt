@@ -1,0 +1,126 @@
+GBAD 3.3
+
+Parameters:
+  Input file..................... gbad/graphs/SD1.g
+  Predefined substructure file... none
+  Output file.................... gbad/graphs/SG_SD1.g
+  Dot file....................... none
+  Beam width..................... 4
+  Compress....................... false
+  Evaluation method.............. MDL
+  Anomaly Detection method....... NONE
+  'e' edges directed............. true
+  Iterations..................... 1
+  Limit.......................... 15
+  Minimum size of substructures.. 1
+  Maximum size of substructures.. 10
+  Number of best substructures... 10
+  Output level................... 2
+  Allow overlapping instances.... false
+  Prune.......................... false
+  Threshold...................... 0.000000
+  Value-based queue.............. false
+
+Read 1 total positive graphs
+
+1 positive graphs: 25 vertices, 30 edges, 366 bits
+7 unique labels
+
+5 initial substructures
+
+Best 10 substructures:
+
+(1) Substructure: value = 1.94415, instances = 5
+  Graph(5v,4e):
+    v 1 "v5"
+    v 2 "v4"
+    v 3 "v3"
+    v 4 "v2"
+    v 5 "v1"
+    d 3 2 "e1"
+    d 4 1 "e2"
+    d 4 3 "e1"
+    d 5 4 "e1"
+
+(2) Substructure: value = 1.57527, instances = 5
+  Graph(4v,3e):
+    v 1 "v4"
+    v 2 "v3"
+    v 3 "v2"
+    v 4 "v1"
+    d 2 1 "e1"
+    d 3 2 "e1"
+    d 4 3 "e1"
+
+(3) Substructure: value = 1.5458, instances = 5
+  Graph(4v,3e):
+    v 1 "v5"
+    v 2 "v3"
+    v 3 "v2"
+    v 4 "v1"
+    d 3 1 "e2"
+    d 3 2 "e1"
+    d 4 3 "e1"
+
+(4) Substructure: value = 1.51974, instances = 5
+  Graph(4v,3e):
+    v 1 "v5"
+    v 2 "v4"
+    v 3 "v3"
+    v 4 "v2"
+    d 3 2 "e1"
+    d 4 1 "e2"
+    d 4 3 "e1"
+
+(5) Substructure: value = 1.27698, instances = 5
+  Graph(3v,2e):
+    v 1 "v5"
+    v 2 "v2"
+    v 3 "v1"
+    d 2 1 "e2"
+    d 3 2 "e1"
+
+(6) Substructure: value = 1.25972, instances = 5
+  Graph(3v,2e):
+    v 1 "v4"
+    v 2 "v3"
+    v 3 "v2"
+    d 2 1 "e1"
+    d 3 2 "e1"
+
+(7) Substructure: value = 1.25765, instances = 5
+  Graph(3v,2e):
+    v 1 "v3"
+    v 2 "v2"
+    v 3 "v1"
+    d 2 1 "e1"
+    d 3 2 "e1"
+
+(8) Substructure: value = 1.2291, instances = 5
+  Graph(3v,2e):
+    v 1 "v5"
+    v 2 "v3"
+    v 3 "v2"
+    d 3 1 "e2"
+    d 3 2 "e1"
+
+(9) Substructure: value = 1.12919, instances = 2
+  Graph(5v,4e):
+    v 1 "v3"
+    v 2 "v4"
+    v 3 "v3"
+    v 4 "v2"
+    v 5 "v1"
+    d 1 4 "e1"
+    d 3 2 "e1"
+    d 4 3 "e1"
+    d 5 4 "e1"
+
+(10) Substructure: value = 1.12162, instances = 5
+  Graph(2v,1e):
+    v 1 "v4"
+    v 2 "v3"
+    d 2 1 "e1"
+
+
+GBAD done (elapsed CPU time =    0.01 seconds).

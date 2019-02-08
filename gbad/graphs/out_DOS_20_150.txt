@@ -1,0 +1,50 @@
+GBAD 3.3
+
+Parameters:
+  Input file..................... gbad/graphs/DOS_20_150.g
+  Predefined substructure file... none
+  Output file.................... gbad/graphs/SG_DOS_20_150.g
+  Dot file....................... none
+  Beam width..................... 4
+  Compress....................... false
+  Evaluation method.............. MDL
+  Anomaly Detection method....... NONE
+  'e' edges directed............. true
+  Iterations..................... 1
+  Limit.......................... 3
+  Minimum size of substructures.. 1
+  Maximum size of substructures.. 10
+  Number of best substructures... 20
+  Output level................... 2
+  Allow overlapping instances.... false
+  Prune.......................... false
+  Threshold...................... 0.000000
+  Value-based queue.............. false
+
+Read 1 total positive graphs
+
+1 positive graphs: 7 vertices, 6 edges, 63 bits
+4 unique labels
+
+1 initial substructures
+
+Best 3 substructures:
+
+(1) Substructure: value = 0.955456, instances = 1
+  Graph(2v,1e):
+    v 1 "Workstation"
+    v 2 "DNS"
+    d 1 2 "mid"
+
+(2) Substructure: value = 0.910742, instances = 5
+  Graph(1v,0e):
+    v 1 "Workstation"
+
+(3) Substructure: value = 0.877941, instances = 1
+  Graph(2v,1e):
+    v 1 "DHCP"
+    v 2 "Workstation"
+    d 2 1 "mid"
+
+
+GBAD done (elapsed CPU time =    0.00 seconds).

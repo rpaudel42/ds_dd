@@ -1,0 +1,10 @@
+# sg <file>
+#
+# This script uses the process ID number ($$) to construct the
+# seed to the random number generator in the subgen program.
+#
+
+@ pn = ($$ / 100) * 100
+@ seed = $$ - $pn
+# echo $seed
+subgen $argv[1] $seed

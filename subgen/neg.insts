@@ -1,0 +1,168 @@
+Instance 13 {
+v 65 v1
+v 64 v2
+v 63 v3
+v 62 v4
+v 61 v5
+e e1 65 64
+e e1 65 63
+e e2 64 63
+e e1 64 62
+e e1 63 61
+}
+
+Instance 12 {
+v 60 v1
+v 59 v2
+v 58 v3
+v 57 v4
+v 56 v5
+e e1 60 59
+e e1 60 58
+e e2 59 58
+e e1 59 57
+e e1 58 56
+}
+
+Instance 11 {
+v 55 v1
+v 54 v2
+v 53 v3
+v 52 v4
+v 51 v5
+e e1 55 54
+e e1 55 53
+e e2 54 53
+e e1 54 52
+e e1 53 51
+}
+
+Instance 10 {
+v 50 v1
+v 49 v2
+v 48 v3
+v 47 v4
+v 46 v5
+e e1 50 49
+e e1 50 48
+e e2 49 48
+e e1 49 47
+e e1 48 46
+}
+
+Instance 9 {
+v 45 v1
+v 44 v2
+v 43 v3
+v 42 v4
+v 41 v5
+e e1 45 44
+e e1 45 43
+e e2 44 43
+e e1 44 42
+e e1 43 41
+}
+
+Instance 8 {
+v 40 v1
+v 39 v2
+v 38 v3
+v 37 v4
+v 36 v5
+e e1 40 39
+e e1 40 38
+e e2 39 38
+e e1 39 37
+e e1 38 36
+}
+
+Instance 7 {
+v 35 v1
+v 34 v2
+v 33 v3
+v 32 v4
+v 31 v5
+e e1 35 34
+e e1 35 33
+e e2 34 33
+e e1 34 32
+e e1 33 31
+}
+
+Instance 6 {
+v 30 v1
+v 29 v2
+v 28 v3
+v 27 v4
+v 26 v5
+e e1 30 29
+e e1 30 28
+e e2 29 28
+e e1 29 27
+e e1 28 26
+}
+
+Instance 5 {
+v 25 v1
+v 24 v2
+v 23 v3
+v 22 v4
+v 21 v5
+e e1 25 24
+e e1 25 23
+e e2 24 23
+e e1 24 22
+e e1 23 21
+}
+
+Instance 4 {
+v 20 v1
+v 19 v2
+v 18 v3
+v 17 v4
+v 16 v5
+e e1 20 19
+e e1 20 18
+e e2 19 18
+e e1 19 17
+e e1 18 16
+}
+
+Instance 3 {
+v 15 v1
+v 14 v2
+v 13 v3
+v 12 v4
+v 11 v5
+e e1 15 14
+e e1 15 13
+e e2 14 13
+e e1 14 12
+e e1 13 11
+}
+
+Instance 2 {
+v 10 v1
+v 9 v2
+v 8 v3
+v 7 v4
+v 6 v5
+e e1 10 9
+e e1 10 8
+e e2 9 8
+e e1 9 7
+e e1 8 6
+}
+
+Instance 1 {
+v 5 v1
+v 4 v2
+v 3 v3
+v 2 v4
+v 1 v5
+e e1 5 4
+e e1 5 3
+e e2 4 3
+e e1 4 2
+e e1 3 1
+}

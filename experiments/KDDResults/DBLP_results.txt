@@ -1,0 +1,147 @@
+
+
+
+ ------ Final Result  [ DBLP Run 10 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 24.3,  ] std [  30.106643785051833 ]
+FA1000:-      mean [ 1.85 ] std [ 0.5024937810560445 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 20 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 24.4,  ] std [  27.390509305231987 ]
+FA1000:-      mean [ 1.95 ] std [ 0.5454356057317857 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 30 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 28.766666666666666,  ] std [  27.223376392766237 ]
+FA1000:-      mean [ 1.8833333333333333 ] std [ 0.5112620550059324 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 40 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 28.275,  ] std [  27.265351180573486 ]
+FA1000:-      mean [ 1.9125 ] std [ 0.4985917668794783 ]
+DCR:-         mean [ 0.925 ] std [ 0.26339134382131846 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 28.08,  ] std [  27.264511732286717 ]
+FA1000:-      mean [ 1.91 ] std [ 0.5166236541235796 ]
+DCR:-         mean [ 0.94 ] std [ 0.23748684174075838 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 300] ]-----
+DoD:-         mean [ 28.08,  ] std [  27.264511732286717 ]
+FA1000:-      mean [ 1.91 ] std [ 0.5166236541235796 ]
+DCR:-         mean [ 0.94 ] std [ 0.23748684174075838 ]
+
+
+
+ ------ Final Result  [ DBLP Run 10 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 14.1,  ] std [  13.25481044753187 ]
+FA1000:-      mean [ 2.25 ] std [ 0.33541019662496846 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 10 -- param[ n = 10, w = 500] ]-----
+DoD:-         mean [ 18.6,  ] std [  37.881921809749834 ]
+FA1000:-      mean [ 1.2 ] std [ 0.33166247903554 ]
+DCR:-         mean [ 0.2 ] std [ 0.4000000000000001 ]
+
+
+
+ ------ Final Result  [ DBLP Run 20 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 22.3,  ] std [  22.76642264388501 ]
+FA1000:-      mean [ 2.2 ] std [ 0.4301162633521313 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 30 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 23.566666666666666,  ] std [  26.635419192412865 ]
+FA1000:-      mean [ 2.25 ] std [ 0.4609772228646444 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 20 -- param[ n = 10, w = 500] ]-----
+DoD:-         mean [ 19.7,  ] std [  36.77648705355094 ]
+FA1000:-      mean [ 1.2 ] std [ 0.36742346141747667 ]
+DCR:-         mean [ 0.25 ] std [ 0.4330127018922193 ]
+
+
+
+ ------ Final Result  [ DBLP Run 40 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 23.725,  ] std [  27.64234749437898 ]
+FA1000:-      mean [ 2.225 ] std [ 0.47368238303741045 ]
+DCR:-         mean [ 0.975 ] std [ 0.15612494995995996 ]
+
+
+
+ ------ Final Result  [ DBLP Run 10 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 28.6,  ] std [  30.624173458233933 ]
+FA1000:-      mean [ 1.2 ] std [ 0.24494897427831783 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 26.4,  ] std [  28.676122471491855 ]
+FA1000:-      mean [ 2.22 ] std [ 0.5015974481593781 ]
+DCR:-         mean [ 0.98 ] std [ 0.13999999999999999 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 150] ]-----
+DoD:-         mean [ 26.4,  ] std [  28.676122471491855 ]
+FA1000:-      mean [ 2.22 ] std [ 0.5015974481593781 ]
+DCR:-         mean [ 0.98 ] std [ 0.13999999999999999 ]
+
+
+
+ ------ Final Result  [ DBLP Run 10 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.4,  ] std [  17.962182495454165 ]
+FA1000:-      mean [ 1.15 ] std [ 0.22912878474779202 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 20 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.1,  ] std [  17.54394482435464 ]
+FA1000:-      mean [ 1.175 ] std [ 0.2861380785564899 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 30 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 21.733333333333334,  ] std [  16.449788921307032 ]
+FA1000:-      mean [ 1.1666666666666667 ] std [ 0.268741924943285 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 40 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 20.2,  ] std [  17.35828332526002 ]
+FA1000:-      mean [ 1.15 ] std [ 0.2549509756796392 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 19.24,  ] std [  19.163047774297283 ]
+FA1000:-      mean [ 1.14 ] std [ 0.24576411454889016 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DBLP Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 19.24,  ] std [  19.163047774297283 ]
+FA1000:-      mean [ 1.14 ] std [ 0.24576411454889016 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]

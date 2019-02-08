@@ -1,0 +1,42 @@
+
+
+
+ ------ Final Result  [ DOS Run 10 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 26.7,  ] std [  26.06549443229497 ]
+FA1000:-      mean [ 0.6872852233676975 ] std [ 0.12496094970321776 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DOS Run 20 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 18.3,  ] std [  21.366094636128523 ]
+FA1000:-      mean [ 0.7341455795064042 ] std [ 0.20425955686694813 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DOS Run 30 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 19.3,  ] std [  23.084121526856222 ]
+FA1000:-      mean [ 0.7914193481203788 ] std [ 0.2642627833062485 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DOS Run 40 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 22.025,  ] std [  21.7514223672844 ]
+FA1000:-      mean [ 0.8044361137144642 ] std [ 0.26032229479067415 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DOS Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 21.16,  ] std [  21.24274935124924 ]
+FA1000:-      mean [ 0.8122461730709152 ] std [ 0.2499218994064355 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]
+
+
+
+ ------ Final Result  [ DOS Run 50 -- param[ n = 10, w = 50] ]-----
+DoD:-         mean [ 21.16,  ] std [  21.24274935124924 ]
+FA1000:-      mean [ 0.8122461730709152 ] std [ 0.2499218994064355 ]
+DCR:-         mean [ 1.0 ] std [ 0.0 ]

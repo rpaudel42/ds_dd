@@ -1,0 +1,21 @@
+----- Dataset [ SD1 ] Created Successfully----
+
+
+----- Experimenting on Dataset[ SD1 ]-- param [ n = 20, w = 50] ----
+
+----- Iteration [  1  ] -------
+
+
+
+----- Generating Graph Streams ----
+Total Graph:  2000
+Starting Drift Detection-----
+Window Size Reached
+Starting Entropy Calculation
+Buffer Matrix Full
+Calculating diversion score
+False Alarm at:  [  248   ] 
+False Alarm at:  [  413   ] 
+False Alarm at:  [  811   ] 
+Drift Detected at:  [  1039   ]
+False Alarm at:  [  1099   ] 

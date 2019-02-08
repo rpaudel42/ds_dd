@@ -1,0 +1,120 @@
+% sample - sample input file for the graph generation program (subgen).
+%
+% The format of the file first defines parameters, then possible vertex
+% and edge labels, and finally the substructure to be imbedded in the
+% graph.  The output of subgen produces two files: substructure instances
+% file and graph file.  These would be called sample.insts and sample.graph,
+% respectively, for the call 'subgen sample'.
+
+%%% Parameters (required) %%%
+
+% Number of vertices and edges in final graph.  Must be integers.
+
+Vertices 20
+Edges 100
+
+%%% Parameters (optional) %%%
+
+% Connectivity is the number of external connections on each instance
+% of the substructure.  The default is 1, but more connectivity may
+% occur inorder to keep the entire graph connected and satisfy the
+% Overlap parameter.  Must be an integer.
+
+Connectivity 1
+
+% Coverage is the percentage of the final graph to be covered by the
+% instances of the substructure.  The value should be a real number
+% between 0.0 and 1.0.  The default is 1.0.
+
+Coverage 1.0
+
+% Overlap is the percentage of the total instances structure that
+% overlaps.  The value must be a real number between 0.0 and 1.0.
+% The default is 0.0.
+
+Overlap 0.0
+
+% The Deviation is the average amount of deviation per instance,
+% where the amount of deviation is computed as the sum of the
+% weight given below (ProbSubVertexLabel, etc) for each deviation
+% made to an instance.  Default is 0, meaning all instances of the
+% substructure are exact matches.  Must be a real number greater
+% than zero.
+
+Deviation 0
+
+% In order to achieve the above amount of deviation in the instances,
+% the following four parameters specify the weights for each of four
+% possible deviations.  In addition, a second argument specifies the
+% probability that each deviation is likely to be selected.  These
+% probabilities must sum to one.  As the deviations are performed,
+% their weight is added to a global sum over all instances until the
+% average deviation weight per instance equals the above Deviation
+% parameter.  Note that a deletion can actually cause multiple
+% deletions, whose weights are all added to the global sum.  Deletions
+% causing the instance to become disconnected are not allowed.  Instances
+% A vertex or edge whose label has been changed is no longer eligible
+% for further deviation.  The first argument is the weight, and the
+% second argument is the probability.  Defaults are
+%
+%                 Weight Probability
+%  SubVertexLabel  1.0     0.25
+%  SubEdgeLabel    1.0     0.25
+%  DelVertex       1.0     0.10
+%  DelEdge         1.0     0.40
+
+SubVertexLabel 1.0 0.25
+SubEdgeLabel   1.0 0.25
+DelVertex      1.0 0.25
+DelEdge        1.0 0.25
+
+% When the graph generator attempts to delete a vertex or edge from
+% instances of the substructure according to the above parameters,
+% other vertices and edges may need deleting as well.  The parameters
+% DelVertex2 and DelEdge2 hold the weights assigned to this internal
+% deviation.  The default for both is 0.5.
+
+DelVertex2 0.5
+DelEdge2   0.5
+
+%%% Data %%%
+
+% All possible vertex labels should follow the VertexLabels keyword.
+% Associated with each vertex label is a probability reflecting the
+% frequency of the label in the randomly generated portion of the
+% graph.  The probabilities for all labels must sum to one.
+
+VertexLabels {
+v1 0.2
+v2 0.2
+v3 0.2
+v4 0.2
+v5 0.2
+}
+
+% All possible edge labels should follow the EdgeLabels keyword.
+% Associated with each edge label is a probability reflecting the
+% frequency of the label in the randomly generated portion of the
+% graph.  The probabilities for all labels must sum to one.
+
+EdgeLabels {
+e1 0.84
+e2 0.16
+}
+
+% The vertices and edges of the substructure should be listed after
+% the Substructure keyword.
+
+Substructure {
+v 1 v1
+v 2 v2
+v 3 v3
+v 4 v4
+v 5 v5
+e e1 1 2
+e e1 1 5
+e e1 2 3
+e e1 3 4
+e e1 4 5
+e e2 1 4
+}

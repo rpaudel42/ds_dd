@@ -1,0 +1,61 @@
+Graph Generator
+
+Parameters:
+- possible vertex labels
+- possible edge labels
+- size of graph
+  - number of vertices
+  - number of edges
+- substructure
+- connectivity
+- coverage
+- overlap
+- deviation
+  - average number of deviations per instance of substructure
+  - probabilities of subvertex, subedge, delvertex, deledge
+  - weights of above four plus internal delvertex, deledge
+
+Outputs:
+- instances
+  - discrepancies
+- graph
+
+Algorithm:
+- read in parameters
+- compute number of instances I
+  - (graph size * coverage) / (subsize * (1 - overlap))
+- create I instances
+- compute amount of common structure needed for overlap
+  - (subsize * overlap), assign as a count to each instance
+- merge instances until overlap achieved
+  - randomly pick two instances
+  - merge randomly
+  - continue until overlap achieved
+  - overlap = Overlap * (subsize * n_instances)
+- probabilistically fuzz each instance
+  - randomly select the type of deviation
+  - make the selected deviation to a random instance (vertex, edge)
+    - do not deviate vertices or edges previously deviated
+    - maintain connectivity of instance
+  - continue until average number of deviations over all instances
+    is equal or greater than the deviation parameter
+- build final graph from instances
+- add random vertices to achieve graph vertex size
+- minimally connect disconnected subgraphs with random unique edges
+- add random unique edges to achieve connectivity
+- add random unique edges to achieve graph edge size
+- output graph
+- output substructure instances
+
+Future Enhancements:
+1 random substructure generator
+2 allow multiple substructures per graph
+3 fuzz instances by ADDING vertices and edges
+4 do not delete a vertex that has an edge leading to a vertex with
+  no other edges
+  - for example, (o---o---X---o), vertex = [o|X], edge = ---,
+    X is the vertex to be deleted
+  - currently the system would yield (o---o) upon deleting X, with
+    one secondary vertex deletion and two secondary edge deletions
+  - may want to prevent this (especially for small substructure
+    instances) due to the large overall loss of structure
