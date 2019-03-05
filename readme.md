@@ -45,8 +45,12 @@ in the entropy series.
 ![Discriminative subgraphs-based Drift Detection Algorithm](http://rpaudel42.github.io/assets/dsdd.png)
 
 <br/>
+
 The result of DSDD and other baseline approach in 4 different dataset is shown below:
+
 <br/>
+
 ![Results](http://rpaudel42.github.io/assets/dsdd_result.png)
+
 <br/>
 If you have further inquiry please email at rpaudel42@students.tntech.edu
