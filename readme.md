@@ -40,9 +40,13 @@ We then compute the entropy of the window based on the distribution of discrimin
 by moving one step forward in the sliding window. The well known direct density-ratio estimation approach called
 Relative Unconstrained Least-Squares Importance Fitting (RuLSIF) is employed for detecting concept drift
 in the entropy series.
+<br/>
+
 ![Discriminative subgraphs-based Drift Detection Algorithm](http://rpaudel42.github.io/assets/dsdd.png)
+
 <br/>
 The result of DSDD and other baseline approach in 4 different dataset is shown below:
+<br/>
 ![Results](http://rpaudel42.github.io/assets/dsdd_result.png)
 <br/>
 If you have further inquiry please email at rpaudel42@students.tntech.edu
